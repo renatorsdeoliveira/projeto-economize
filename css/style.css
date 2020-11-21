@@ -119,11 +119,23 @@ body{
     display: table-cell;
     vertical-align: middle;
 }
+#contato .box-info .lampada img{
+    cursor: pointer;
+}
 #contato .box-info .descricao{
     width: 50%;
     display: table-cell;
     vertical-align: middle;
     padding: 0 42px 0 20px;
+}
+#contato .box-info .descricao .contado{
+    background-color: #cecece;
+    padding: 10px;
+    border-radius: 5px;
+}
+#contato .box-info .descricao .contado p{
+    font-size: 20px;
+    margin-bottom: 7px;
 }
 #contato .box-info .descricao p{
     color: #3a3a3a;
@@ -155,4 +167,21 @@ footer{
 footer{
     font-size: 15px;
     color: #3a3a3a;
+}
+.volta-ao-top{
+    padding: 16px 18px;
+    z-index: 999;
+    position:fixed;
+    top: 85%;
+    right:40px;
+    background-color: #3a3a3a;
+    border-radius: 100px;
+    display:none;
+}
+.volta-ao-top:hover{
+    text-decoration:none;
+    opacity: 0.8;
+}
+.volta-ao-top img{
+  width: 25px;
 }
